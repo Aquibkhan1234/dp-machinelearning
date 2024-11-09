@@ -1,5 +1,9 @@
 import streamlit as st
-st.title("fun")         
+import pickle
+import string
+from nltk.corpus import stopwords
+import nltk
+from nltk.stem.porter import PorterStemmer
    
 
 
