@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
 
-
+st.header("Spam"/"Ham)"
 def transform_text(text):
     text = text.lower()
     text = nltk.word_tokenize(text)
