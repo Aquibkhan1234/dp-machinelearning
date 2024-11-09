@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import string
 from nltk.corpus import stopwords
-import nltk
+import nltk 
 from nltk.stem.porter import PorterStemmer
 nltk.download('punkt_tab')
 nltk.download("stopwords")
