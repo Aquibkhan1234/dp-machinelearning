@@ -13,7 +13,7 @@ def transfor_text(text):
 
   y = []
   for i in text:
-    if i isalnum():
+    if i.isalnum():
       y.append(i)
 
   text = y[:]
