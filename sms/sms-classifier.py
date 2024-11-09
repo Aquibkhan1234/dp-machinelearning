@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
-
+ 
 ps = PorterStemmer()
 
 st.header("Spam / Ham") 
