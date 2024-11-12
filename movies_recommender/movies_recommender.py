@@ -25,7 +25,7 @@ def recommend(movie):
   return recommended_movie_names, recommended_movie_posters
 
 st.header("Movie Recommender System")
-movies = pickle.load(open("model/movie_list.pkl", 'rb'))
+movies = pickle.load(open("movies_recommender/movies_lis.pkl", 'rb'))
 similarity = pickle.load(open("movies_recommender/similar.pkl", "rb"))
 
 movie_list = movies["title"].values
