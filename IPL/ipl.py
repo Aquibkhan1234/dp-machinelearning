@@ -26,7 +26,7 @@ col1, col2 = st.columns(2)
 with col1:
   batting_team = st.selectbox("Select the batting team", sorted(teams))
 with col2:
-  bowling_team = st.selectedbox("Select the bowling team", sorted(teams))
+  bowling_team = st.selectbox("Select the bowling team", sorted(teams))
 
 selected_city = st.selectbox('Select the host city', sorted(cities))
 
