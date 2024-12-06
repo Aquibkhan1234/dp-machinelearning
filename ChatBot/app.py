@@ -2,9 +2,8 @@ import os
 import streamlit as st
 from langchain_ollama import OllamaLLM
 from langchain_community.llms import HuggingFaceHub
-from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
-load_dotenv()
+
 llm = OllamaLLM(model="llama3.2:1b")
 
 st.set_page_config(
