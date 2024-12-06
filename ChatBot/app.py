@@ -7,13 +7,6 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 llm = OllamaLLM(model="llama3.2:1b")
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
-
-# llm=HuggingFaceHub(
-#     repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1",
-#     model_kwargs={"temperature":0.1,"max_length":500}
-# )
-
 st.set_page_config(
     page_title="Ollama3.2:1b - Chat",
     page_icon="🗪",
