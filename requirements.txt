@@ -4,3 +4,5 @@ pandas
 scikit-learn
 nltk
 requests
+google-generativeai
+python-dotenv
